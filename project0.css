@@ -1,0 +1,229 @@
+body {
+  background-color: #2A3B6D; }
+
+p::selection {
+  color: white;
+  background-color: #D83F87; }
+
+#div1 #home, #div2 #sitcom, #div3 #drama, #div4 #crime {
+  background-color: #D83F87;
+  color: white; }
+
+@media (min-width: 1281px) {
+  #h1u::before {
+    content: "Do you look like this by the time you find the right tv show?"; }
+
+  h2 {
+    display: none; }
+
+  #head {
+    margin-top: 18%; }
+
+  #p {
+    margin-top: 20px;
+    margin-left: 12%; } }
+@media (max-width: 1280px) {
+  h2::before {
+    content: "Do you look like this by the time you find the right tv show?"; }
+
+  #h1u {
+    display: none; }
+
+  #head {
+    margin-top: 16%; }
+
+  #p {
+    margin-left: 10%;
+    margin-top: -2%; } }
+@media (max-width: 1020px) {
+  #h1u, h2 {
+    display: none; }
+
+  h3::before {
+    content: "Do you look like this by the time you find the right tv show?"; }
+
+  img {
+    margin-left: 16%; }
+
+  #head {
+    margin-top: -5%; } }
+.row {
+  margin-top: 7px;
+  margin-left: 10px; }
+  .row a {
+    color: #D83F87; }
+  .row a:hover {
+    background-color: #D83F87;
+    color: white; }
+
+nav {
+  border: 1px solid black;
+  background-color: #D83F87;
+  padding: 2px;
+  margin-left: 5px; }
+
+#h1u, h2, h3 {
+  padding: 10px;
+  color: white;
+  margin-left: 53%;
+  margin-top: -20%; }
+
+h3 {
+  margin-top: -22%; }
+
+img {
+  padding: 10px;
+  margin-left: 13%;
+  margin-top: -167px; }
+
+#head {
+  padding: 40px;
+  color: #D83F87;
+  margin-left: 63%;
+  font-size: 25px;
+  font-weight: bold; }
+
+#p {
+  padding: 40px;
+  color: #A4B3B6;
+  font-size: 20px;
+  font-weight: bold; }
+
+#h1d {
+  color: #D83F87;
+  margin-left: 20%;
+  font-family: "Sofia";
+  font-size: 55px; }
+
+#ul1 {
+  color: #17E9E0;
+  margin-left: 20%; }
+  #ul1 .genre {
+    font-family: "Sofia";
+    font-size: 40px;
+    color: #17E9E0; }
+  #ul1 a:hover {
+    color: white;
+    background-color: #D83F87; }
+
+#jake {
+  height: 20%;
+  margin-left: 50%;
+  margin-top: -20%; }
+
+form {
+  height: 22%;
+  width: 73%;
+  background-color: #D83F87;
+  border-radius: 15px;
+  margin: auto;
+  margin-top: -5%;
+  margin-left: 3%; }
+  form p {
+    margin-top: 5%;
+    margin-left: 3%;
+    font-family: sofia;
+    font-style: bold;
+    font-size: 25px;
+    color: white; }
+  form input {
+    margin-top: -1%;
+    margin-left: 100px;
+    color: white;
+    background-color: #2A3B6D; }
+
+#submit {
+  font-family: sofia;
+  margin-left: 5px; }
+
+#body1 .pages1, #body2 .pages1, #body3 .pages1, #body4 .pages1 {
+  margin-left: 2%;
+  color: black;
+  background-color: white;
+  padding: 5px; }
+
+#body1 #page1 {
+  color: white;
+  padding: 5px;
+  background-color: #D83F87;
+  margin-left: 80%; }
+
+#submit:hover, #body1 #page2:hover, #body1 #page3:hover, #body1 #page4:hover, a.links:hover, #body2 #page1:hover, #body2 #page3:hover, #body2 #page4:hover, #body3 #page1:hover, #body3 #page2:hover, #body3 #page4:hover, #body4 #page1:hover, #body4 #page2:hover, #body4 #page3:hover {
+  background-color: #D83F87;
+  color: white;
+  transform: scale(1.5); }
+
+#h11 {
+  color: white;
+  font-family: sofia;
+  text-align: center;
+  margin-top: -10%; }
+
+#table {
+  border: 1px solid white;
+  width: 70%;
+  font-family: sofia;
+  color: #D83F87;
+  font-style: bold;
+  font-size: 22px;
+  margin-left: 20%;
+  margin-top: 5%; }
+
+a.links {
+  color: #17E9E0; }
+
+#text {
+  margin-left: 23%;
+  margin-top: 10%;
+  width: 65%; }
+
+#b99, #himym, #bbt, #friends, #thmen, #bb, #got, #pb, #house, #lucifer, #mh, #sh, #dexter, #narcos {
+  font-family: sofia;
+  font-size: 22px;
+  font-style: bold;
+  color: #D83F87;
+  margin-top: 2%;
+  margin-left: 2%; }
+
+.sitcom, .drama, .crime {
+  padding: 10px; }
+
+#b99, #himym, #bbt, #friends, #thmen, #bb, #got, #pb, #house, #lucifer, #mh, #sh, #dexter, #narcos {
+  margin-top: -15%; }
+
+#head1b99, #head1bbt, #head1himym, #head1friends, #head1thmen, #head1bb, #head1got, #head1pb, #head1house, #head1lucifer, #head1mh, #head1sh, #head1d, #head1n {
+  font-family: sofia;
+  margin-left: -10%;
+  margin-top: -15%;
+  text-align: center;
+  color: white;
+  padding: 40px;
+  font-size: 25px;
+  font-weight: bold; }
+
+#pic {
+  margin-left: -15%;
+  margin-top: -8%; }
+
+#body2 #page1 {
+  margin-left: 80%; }
+#body2 #page2 {
+  color: white;
+  padding: 5px;
+  background-color: #D83F87; }
+
+#body3 #page1 {
+  margin-left: 80%; }
+#body3 #page3 {
+  color: white;
+  padding: 5px;
+  background-color: #D83F87; }
+
+#body4 #page1 {
+  margin-left: 80%; }
+#body4 #page4 {
+  color: white;
+  padding: 5px;
+  background-color: #D83F87; }
+
+/*# sourceMappingURL=project0.css.map */

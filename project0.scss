@@ -1,0 +1,404 @@
+$color1:white;
+$color2:#A4B3B6; //gray
+$color3:#D83F87; //pink
+$color4:#2A3B6D; //blue
+$color5:#17E9E0; //light blue
+
+
+body{
+	background-color:$color4;
+
+}
+p::selection {
+			color: $color1;
+			background-color:$color3;
+		} 
+
+%navbar
+{
+	background-color:$color3;
+	color: $color1;
+}
+#div1
+{
+#home
+{
+	@extend %navbar;
+}
+}
+@media (min-width:1281px)
+		{
+			#h1u::before{
+				content: "Do you look like this by the time you find the right tv show?";
+			}
+			
+			h2{
+				display: none;
+				}
+				#head
+				{
+					margin-top:18%;
+				}
+			#p{
+				//margin-left: 15%;
+				margin-top:20px;
+				margin-left: 12%;
+			}
+
+		}
+@media (max-width:1280px)
+{
+	h2::before{
+		content:"Do you look like this by the time you find the right tv show?";
+			}
+			#h1u{
+				display: none;
+			}
+			#head
+			{
+				margin-top:16%;
+			}
+			#p{
+				margin-left: 10%;
+				margin-top: -2%;
+			}
+			
+		}
+
+@media(max-width:1020px)
+{
+	#h1u,h2{
+		display: none;
+	}
+	h3::before{
+		content: "Do you look like this by the time you find the right tv show?";
+	}
+	img{
+		margin-left: 16%;
+	}
+	#head
+	{
+		margin-top:-5%;
+	}
+
+}
+.row
+{
+	margin-top: 7px;
+	margin-left:10px;
+	a{
+
+		color: $color3;
+   	}
+   	a:hover{
+   		background-color:$color3;
+   		color: white;
+   	}
+}
+nav
+{
+
+	border: 1px solid black;
+	background-color: $color3;
+	padding: 2px;
+	margin-left:5px;
+}
+%h
+{
+	padding: 10px;
+	color: $color1;
+	margin-left:53%;
+	margin-top: -20%;
+}
+#h1u{
+	@extend %h;
+}
+h2{
+	@extend %h;
+}
+h3
+{
+	@extend %h;
+	margin-top: -22%;
+}
+
+img{
+	padding:10px;
+	margin-left:13%;
+	margin-top:-167px;
+}
+#head{
+	padding:40px;
+	color:$color3;
+	margin-left: 63%;
+	font-size: 25px;
+	font-weight: bold;
+}	
+#p{
+	padding:40px;
+	color:$color2;
+	font-size:20px;
+	font-weight: bold;
+}
+#h1d{
+	color: $color3;
+	margin-left: 20%;
+	 font-family: "Sofia";
+	 font-size: 55px;
+}
+
+#ul1
+{
+	color:$color5;
+	margin-left: 20%;
+	.genre{
+	font-family: "Sofia";
+	font-size: 40px;
+	color: $color5;
+		}
+	a:hover
+	{
+	color: $color1;
+	background-color:$color3;
+	}
+}
+#jake
+{
+	height: 20%;
+	margin-left: 50%;
+	margin-top: -20%;
+}
+
+form{
+height: 22%;
+width: 73%;
+background-color: $color3;
+border-radius: 15px;
+margin:auto;
+margin-top:-5%;
+margin-left:3%;
+p{
+	margin-top: 5%;
+	margin-left: 3%;
+	font-family: sofia;
+	font-style:bold;
+	font-size:25px;
+	color: $color1;
+
+}
+input
+{
+	margin-top: -1%;
+	margin-left: 100px;
+	color: $color1;
+	background-color:$color4;
+}
+}
+
+#submit
+{
+	font-family: sofia;
+	margin-left: 5px;
+}
+
+%pages{
+
+margin-left: 2%;
+color: black;
+background-color:$color1;
+padding: 5px;
+}
+
+#submit:hover
+{
+	@extend %hover;
+}
+#body1{
+.pages1
+{
+	@extend %pages;
+}
+
+#page2:hover,#page3:hover,#page4:hover
+{
+	@extend %hover;
+}
+#page1
+{
+	color: $color1;
+	padding: 5px;
+	background-color:$color3;
+	margin-left: 80%;
+}
+}
+%hover
+{
+	background-color:$color3;
+	color: $color1;
+	transform: scale(1.5);
+}
+
+
+
+
+//scss for page 2 starts from here
+#h11
+{
+	color: $color1;
+	font-family: sofia;
+	text-align: center;
+	margin-top: -10%;
+}
+#div2
+{
+	#sitcom
+	{
+	@extend %navbar;
+	}
+}
+
+#table
+{
+	border:1px solid $color1 ;
+	width: 70%;
+	font-family: sofia;
+	color: $color3;
+	font-style: bold;
+	font-size: 22px;
+	margin-left: 20%;
+	margin-top: 5%;
+}
+
+a.links
+{
+		color: $color5;
+}
+a.links:hover
+{
+		@extend %hover;
+}
+#text
+{
+	margin-left:23%;
+	margin-top: 10%;
+	width: 65%;
+}
+%review
+{
+	font-family: sofia;
+	font-size: 22px;
+	font-style: bold;
+	color: $color3;
+	margin-top: 2%;
+	margin-left: 2%;
+}
+.sitcom,.drama,.crime
+{
+	padding:10px;
+}
+#b99,#himym,#bbt,#friends,#thmen,#bb,#got,#pb,#house,#lucifer,#mh,#sh,#dexter,#narcos
+{
+	@extend %review;
+	margin-top: -15%;
+}
+#head1b99,#head1bbt,#head1himym,#head1friends,#head1thmen,#head1bb,#head1got,#head1pb,#head1house,#head1lucifer,#head1mh,#head1sh,#head1d,#head1n
+{
+	font-family: sofia;
+	margin-left: -10%;
+	margin-top: -15%;
+	text-align:center;
+	color: $color1;
+	padding:40px;
+	font-size: 25px;
+	font-weight: bold;
+}
+#pic
+{
+	margin-left: -15%;
+	margin-top: -8%;	
+}
+
+#body2{
+.pages1
+{
+	@extend %pages;
+}
+
+#page1:hover,#page3:hover,#page4:hover
+{
+	@extend %hover;
+}
+#page1{
+	margin-left: 80%;
+}
+#page2
+{
+	color: $color1;
+	padding: 5px;
+	background-color:$color3;
+}
+}
+
+//css for page 3 starts from here
+#div3
+{
+	#drama
+	{
+	@extend %navbar;
+	}
+}
+
+#body3
+{
+.pages1
+{
+	@extend %pages;
+}
+
+#page1:hover,#page2:hover,#page4:hover
+{
+	@extend %hover;
+}
+#page1{
+	margin-left: 80%;
+}
+#page3
+{
+	color: $color1;
+	padding: 5px;
+	background-color:$color3;
+}
+
+}
+
+
+// css for page 4
+#div4
+{
+	#crime
+	{
+	@extend %navbar;
+	}
+}
+
+#body4
+{
+
+.pages1
+{
+	@extend %pages;
+}
+#page1:hover,#page2:hover,#page3:hover
+{
+	@extend %hover;
+}
+#page1{
+	margin-left: 80%;
+}
+#page4
+{
+	color: $color1;
+	padding: 5px;
+	background-color:$color3;
+}
+}
